@@ -14,6 +14,10 @@ In order for this setup to work you will need the following items installed and 
 * Microsoft SQL Server or MySQL database
 * A computer with Internet Information Services (IIS) setup and running.
 
+## Screenshots
+
+![MobileWebsite](https://raw.githubusercontent.com/blazefyre0385/master/screenshots/mobilewebsite.png)
+
 ## Installation Guide
 
 I will start working on this section very soon!
