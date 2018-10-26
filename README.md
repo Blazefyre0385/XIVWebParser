@@ -16,7 +16,7 @@ In order for this setup to work you will need the following items installed and 
 
 ## Screenshots
 
-
+![Mobile Webpage](https://raw.githubusercontent.com/Blazefyre0385/XIVWebParser/master/screenshots/mobilewebpage.png)
 
 ## Installation Guide
 
