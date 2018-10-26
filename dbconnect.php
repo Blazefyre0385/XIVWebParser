@@ -1,5 +1,5 @@
-<?php $serverName = "DESKTOP-882M394";
-$connectionInfo = array("Database"=>"FFXIV", "UID"=>"ffxiv", "PWD"=>"catswebnet");
+<?php $serverName = "[YOUR COMPUTER NAME]";
+$connectionInfo = array("DATABASE"=>"FFXIV", "UID"=>"userid", "PWD"=>"password");
 // CREATE CONNECTION
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 // CHECK CONNECTION
