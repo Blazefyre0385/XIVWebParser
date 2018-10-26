@@ -11,8 +11,9 @@ If you've ever had raid members or friends that play on PS4 ask about their DPS 
 In order for this setup to work you will need the following items installed and setup first:
 
 * [Advanced Combat Tracker](https://advancedcombattracker.com/download.php) - with the FFXIV Plugin enabled
-* Microsoft SQL Server or MySQL database
+* Microsoft SQL Server or [MySQL database](https://dev.mysql.com/downloads/installer/)
 * A computer with Internet Information Services (IIS) setup and running.
+* Port forwarding setup to allow HTTP or HTTPS pass-through.
 
 ## Screenshots
 
