@@ -1,10 +1,7 @@
-﻿html {
-    all: unset;
-}
-
-body {
+﻿body {
     margin: 0;
-    background-color: #efefef;
+    padding: 0;
+    background-color: #fcfcfc;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,8 +12,21 @@ table {
     width: 100%;
 }
 
-h1 {
-    font-size: 82px;
+#header {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    background-color: #dedede;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 50px;
+    overflow: hidden;
+    filter: drop-shadow(2px 5px 5px #b0b0b0);
+}
+
+#header h1 {
+    font-size: 74px;
 }
 
 h2 {
@@ -29,7 +39,7 @@ h4 {
     font-style: italic;
 }
 
-#tbl-head {
+#tbl-foot {
     display: inline-block;
     float: left;
     position: relative;
@@ -38,17 +48,17 @@ h4 {
     margin-top: 35px;
 }
 
-#tbl-head tr td:first-child {
+#tbl-foot tr td:first-child {
     text-align: right;
     font-size: 38px;
 }
 
-#tbl-head td {
+#tbl-foot td {
     padding: 5px 10px;
     font-size: 38px;
 }
 
-.headinfo {
+.footinfo {
     font-size: 35px;
     text-align: left !important;
 }
@@ -57,31 +67,22 @@ th {
     padding: 5px;
     border-bottom: 5px solid #444 !important;
     text-align: center;
-    font-size: 48px;
+    font-size: 26px;
 }
 
 td {
     padding: 15px 30px;
-    font-size: 55px;
+    font-size: 34px;
     text-align: center;
     border: none;
 }
 
 .tbl-parse tr:not(:first-child) {
-    border-bottom: 2px dashed #444;
+    border-bottom: 1px dashed #E8E8E8;
 }
 
 .tbl-parse tr:last-child {
     border-bottom: 5px solid #444 !important;
-}
-
-@media only screen and (max-device-width: 640px) {
-    th {
-        font-size: 48px;
-    }
-    td {
-        font-size: 55px;
-    }
 }
 
 td[class^="job_"] {
@@ -94,77 +95,77 @@ td[class^="job_"] {
     text-align: center;
 }
 
-tr.Smn, tr.Arc {
+tr.SMN, tr.ARC {
     background-color: #2e7d32;
     color: #fff;
 }
 
-tr.Blm, tr.Thm {
+tr.BLM, tr.THM {
     background-color: #7e57c2;
     color: #fff;
 }
 
-tr.Mch {
+tr.MCH {
     background-color: #0097a7;
     color: #fff;
 }
 
-tr.Drg, tr.Lnc {
+tr.DRG, tr.LNC {
     background-color: #3f51b5;
     color: #fff;
 }
 
-tr.Mnk, tr.Pug {
+tr.MNK, tr.PUG {
     background-color: #ff9800;
     color: #fff;
 }
 
-tr.Ast {
+tr.AST {
     background-color: #795548;
     color: #fff;
 }
 
-tr.Sch {
+tr.SCH {
     background-color: #7986cb;
     color: #fff;
 }
 
-tr.Pld, tr.Gld {
+tr.PLD, tr.GLD {
     background-color: #151c64;
     color: #fff;
 }
 
-tr.War, tr.Mrd {
+tr.WAR, tr.MRD {
     background-color: #991717;
     color: #fff;
 }
 
-tr.Drk {
+tr.DRK {
     background-color: #880e4f;
     color: #fff;
 }
 
-tr.Brd, tr.Arc {
+tr.BRD, tr.ARC {
     background-color: #9e9d24;
     color: #fff;
 }
 
-tr.Nin, tr.Rog {
+tr.NIN, tr.ROG {
     background-color: #d32f2f;
     color: #fff;
 }
 
-tr.Cnj, tr.Whm {
+tr.CNJ, tr.WHM {
     background-color: #757575;
     color: #fff;
 }
 
-tr.Rdm {
+tr.RDM {
     background-color: #e91e63;
     color: #fff;
 }
 
-tr.lb {
+tr.LB {
     background-color: #444;
     color: #fff;
 }
