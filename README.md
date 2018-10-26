@@ -1,4 +1,19 @@
-# fiddlebits
-Just some stuff I mess around and come up with. I'm not the greatest, but I've got good ideas.
+# FFXIV Web Parser
 
-This is currently a work in progress! I will update the notes here as soon as I have more time.
+A simple PHP web project that allows someone in your party or raid group to view their DPS numbers.
+
+## Short Description
+
+If you've ever had raid members or friends that play on PS4 ask about their DPS parsing numbers, then you maybe understand my reasoning behind creating this! I am by no means a high level developer, so this is definitely a work in progress.
+
+## Prerequisites
+
+In order for this setup to work you will need the following items installed and setup first:
+
+* [Advanced Combat Tracker](https://advancedcombattracker.com/download.php) - with the FFXIV Plugin enabled
+* Microsoft SQL Server or MySQL database
+* A computer with Internet Information Services (IIS) setup and running.
+
+## Installation Guide
+
+I will start working on this section very soon!
