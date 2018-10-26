@@ -1,183 +1,183 @@
-﻿body {
-    margin: 0;
-    padding: 0;
-    background-color: #fcfcfc;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 #header {
-    display: inline-block;
-    width: 100%;
-    height: 150px;
-    background-color: #dedede;
-    margin: 0 auto;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-    margin-bottom: 50px;
-    overflow: hidden;
-    filter: drop-shadow(2px 5px 5px #b0b0b0);
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+  background-color: #dedede;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  margin-bottom: 50px;
+  overflow: hidden;
+  filter: drop-shadow(2px 5px 5px #b0b0b0);
 }
 
 #header h1 {
-    font-size: 74px;
+  font-size: 74px;
 }
 
 h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 h4 {
-    margin-top: -50px;
-    font-size: 45px;
-    font-style: italic;
+  margin-top: -50px;
+  font-size: 45px;
+  font-style: italic;
 }
 
 #tbl-foot {
-    display: inline-block;
-    float: left;
-    position: relative;
-    clear: both;
-    overflow: hidden;
-    margin-top: 35px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  clear: both;
+  overflow: hidden;
+  margin-top: 35px;
 }
 
 #tbl-foot tr td:first-child {
-    text-align: right;
-    font-size: 38px;
+  text-align: right;
+  font-size: 38px;
 }
 
 #tbl-foot td {
-    padding: 5px 10px;
-    font-size: 38px;
+  padding: 5px 10px;
+  font-size: 38px;
 }
 
 .footinfo {
-    font-size: 35px;
-    text-align: left !important;
+  font-size: 35px;
+  text-align: left !important;
 }
 
 th {
-    padding: 5px;
-    border-bottom: 5px solid #444 !important;
-    text-align: center;
-    font-size: 26px;
+  padding: 5px;
+  border-bottom: 5px solid #444 !important;
+  text-align: center;
+  font-size: 26px;
 }
 
 td {
-    padding: 15px 30px;
-    font-size: 34px;
-    text-align: center;
-    border: none;
+  padding: 15px 30px;
+  font-size: 34px;
+  text-align: center;
+  border: none;
 }
 
 .tbl-parse tr:not(:first-child) {
-    border-bottom: 1px dashed #E8E8E8;
+  border-bottom: 1px dashed #E8E8E8;
 }
 
 .tbl-parse tr:last-child {
-    border-bottom: 5px solid #444 !important;
+  border-bottom: 5px solid #444 !important;
 }
 
 td[class^="job_"] {
-    vertical-align: middle;
-    line-height: 3px;
+  vertical-align: middle;
+  line-height: 3px;
 }
 
 #page {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 tr.SMN, tr.ARC {
-    background-color: #2e7d32;
-    color: #fff;
+  background-color: #2e7d32;
+  color: #fff;
 }
 
 tr.BLM, tr.THM {
-    background-color: #7e57c2;
-    color: #fff;
+  background-color: #7e57c2;
+  color: #fff;
 }
 
 tr.MCH {
-    background-color: #0097a7;
-    color: #fff;
+  background-color: #0097a7;
+  color: #fff;
 }
 
 tr.DRG, tr.LNC {
-    background-color: #3f51b5;
-    color: #fff;
+  background-color: #3f51b5;
+  color: #fff;
 }
 
 tr.MNK, tr.PUG {
-    background-color: #ff9800;
-    color: #fff;
+  background-color: #ff9800;
+  color: #fff;
 }
 
 tr.AST {
-    background-color: #795548;
-    color: #fff;
+  background-color: #795548;
+  color: #fff;
 }
 
 tr.SCH {
-    background-color: #7986cb;
-    color: #fff;
+  background-color: #7986cb;
+  color: #fff;
 }
 
 tr.PLD, tr.GLD {
-    background-color: #151c64;
-    color: #fff;
+  background-color: #151c64;
+  color: #fff;
 }
 
 tr.WAR, tr.MRD {
-    background-color: #991717;
-    color: #fff;
+  background-color: #991717;
+  color: #fff;
 }
 
 tr.DRK {
-    background-color: #880e4f;
-    color: #fff;
+  background-color: #880e4f;
+  color: #fff;
 }
 
 tr.BRD, tr.ARC {
-    background-color: #9e9d24;
-    color: #fff;
+  background-color: #9e9d24;
+  color: #fff;
 }
 
 tr.NIN, tr.ROG {
-    background-color: #d32f2f;
-    color: #fff;
+  background-color: #d32f2f;
+  color: #fff;
 }
 
 tr.CNJ, tr.WHM {
-    background-color: #757575;
-    color: #fff;
+  background-color: #757575;
+  color: #fff;
 }
 
 tr.RDM {
-    background-color: #e91e63;
-    color: #fff;
+  background-color: #e91e63;
+  color: #fff;
 }
 
 tr.LB {
-    background-color: #444;
-    color: #fff;
+  background-color: #444;
+  color: #fff;
 }
 
 .bad {
-    color: red;
-    font-weight: bold;
-    font-style: italic;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .note {
-    font-size: 18px;
-    font-style: italic;
-    font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
 }

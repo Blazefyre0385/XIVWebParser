@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-	<?php include "dbcommands.php";?>
+	<?php include "dbcommands.php"; ?>
     <div id="header">
         <h1>Blaze's FFXIV Parser</h1>
     </div>
@@ -22,9 +22,9 @@
 						<th>CRIT %</th>
 						<th>DH %</th>
 						<th>DAM %</th>
-                        <th>JOB</th>
+            <th>JOB</th>
 					</tr>
-                    <?php
+          <?php
 					if($r2) {
 						$hasRows2 = sqlsrv_has_rows($r2);
 						if($hasRows2 === true) {
@@ -41,34 +41,34 @@
 								echo "<td>" . $row["critdamperc"] . "</td>";
 								echo "<td>" . $row["directhitpct"] . "</td>";
 								echo "<td>" . $row["damageperc"] . "</td>";
-                                echo "<td>" . $row["job"] . "</td>";
+                echo "<td>" . $row["job"] . "</td>";
 								echo "</tr>";
 							}
 						}
 					}
-                    ?>
+          ?>
 				</table>
 			</div>
 			<table id="tbl-foot">
-                <tr>
-                    <td>Time:</td>
-                    <td class="footinfo">
-                        <?php
-						if($r1) {
-							$hasRows1 = sqlsrv_has_rows($r1);
-							if($hasRows1 === true) {
-								$time = sqlsrv_fetch_array($r1, SQLSRV_FETCH_ASSOC);
-								$duration = " " . $time["duration"];
-								echo $duration;
+        <tr>
+            <td>Time:</td>
+            <td class="footinfo">
+	            <?php
+							if($r1) {
+								$hasRows1 = sqlsrv_has_rows($r1);
+								if($hasRows1 === true) {
+									$time = sqlsrv_fetch_array($r1, SQLSRV_FETCH_ASSOC);
+									$duration = " " . $time["duration"];
+									echo $duration;
+								}
 							}
-						}
-                        ?>
-                    </td>
-                </tr>
+	            ?>
+            </td>
+        </tr>
 				<tr>
 					<td>Raid DPS:</td>
 					<td class="footinfo">
-                        <?php
+            <?php
 						if($r3) {
 							$hasRows3 = sqlsrv_has_rows($r3);
 							if($hasRows3 === true) {
@@ -78,11 +78,11 @@
 							}
 						}
 
-                        sqlsrv_free_stmt($r1);
+            sqlsrv_free_stmt($r1);
 						sqlsrv_free_stmt($r2);
 						sqlsrv_free_stmt($r3);
 						sqlsrv_close($conn);
-                        ?>
+            ?>
 					</td>
 				</tr>
 			</table>
