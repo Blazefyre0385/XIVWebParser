@@ -1,6 +1,6 @@
 # FFXIV Web Parser
 
-A simple PHP web project that allows someone in your party or raid group to view their DPS numbers.
+A simple PHP web project that allows someone in your party or raid group to view their DPS numbers. Please note that this does NOT allow just anyone to go to a webpage and see their numbers right away. It requires someone with ACT hooked up to a local database (the ODBC settings in ACT) and have either a locally run IIS web server or equivalent.
 
 ## Short Description
 
