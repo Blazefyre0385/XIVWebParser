@@ -1,7 +1,7 @@
 <?php
 include_once "dbconnect.php";
 //QUERIES
-$q1 = "SELECT RIGHT('0' + CAST((duration / 60) % 60 AS VARCHAR), 2) + ':' + RIGHT('0' + CAST(duration % 60 AS VARCHAR), 2) AS duration FROM current_table WHERE damage > 0";
+$q1 = "SELECT RIGHT('0' + CAST((MAX(duration) / 60) % 60 AS VARCHAR), 2) + ':' + RIGHT('0' + CAST(MAX(duration) % 60 AS VARCHAR), 2) AS duration FROM current_table WHERE damage > 0";
 $r1 = sqlsrv_query($conn, $q1);
 
 $q2 = "SELECT * FROM vw_FFXIV_Parse ORDER BY encdpsnum DESC";
